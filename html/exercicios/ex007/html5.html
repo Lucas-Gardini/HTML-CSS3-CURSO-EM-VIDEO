@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site HTML5</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        
+        .marquee {
+            position: relative;
+            left: 0%;
+            animation: marquee 20s infinite;
+        }
+        
+        @keyframes marquee {
+            0% {
+                position: relative;
+                left: -10%;
+            }
+            100% {
+                position: relative;
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style='background-color: blue'>
+    <h1 style='text-align: center'>Exemplo de site em HTML5</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi minus harum dicta officia quas optio magni mollitia modi tempore eos, incidunt hic qui, repudiandae doloribus molestiae nobis vel? Voluptates, sapiente.</p>
+    <p style='color: white'>Teste de parágrafo</p>
+    <hr>
+    <p style='text-decoration: underline;'>Sublinhado</p>
+    <p class='marquee'>Teste de marquee</p>
+</body>
+
+</html>
